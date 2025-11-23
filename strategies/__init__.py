@@ -9,9 +9,11 @@ from .base import (
     BuyAndHoldStrategy,
     MovingAverageCrossoverStrategy
 )
+from .vol_normalized_buy_and_hold import VolNormalizedBuyAndHold
 
 __all__ = [
     'BaseStrategy',
     'BuyAndHoldStrategy',
     'MovingAverageCrossoverStrategy',
+    'VolNormalizedBuyAndHold',
 ]
